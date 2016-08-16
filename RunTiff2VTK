@@ -1,0 +1,7 @@
+DataFolder=${PWD}
+cd ~/image_store/Scripts/PythonSrc
+NameScript="Tiff2VTK"
+NameScriptPy=$NameScript".py"
+python -i $NameScriptPy $DataFolder
+###python $NameScriptPy $DataFolder
+	
